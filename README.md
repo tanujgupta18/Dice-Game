@@ -1,6 +1,6 @@
 # Dice Game
 
-A simple dice game built with React where you select a number and roll a dice. If your selected number matches the dice roll, you earn points, otherwise, you lose points.
+A simple dice game built with React where you select a number and roll a dice. If your selected number matches the dice roll, you earn points; otherwise, you lose points.
 
 ## Features
 
@@ -33,8 +33,6 @@ Ensure that you have the following installed:
    cd dice-game
    ```
 
-````
-
 2. Install the required dependencies:
 
    ```bash
@@ -56,4 +54,3 @@ Ensure that you have the following installed:
 3. **Match:** If the rolled dice number matches the number you selected, you earn points equal to the dice number.
 4. **Incorrect Guess:** If your guess doesn't match the rolled number, 2 points are deducted from your total score.
 5. **Reset Score:** You can reset the score at any time by clicking the "Reset Score" button.
-````
