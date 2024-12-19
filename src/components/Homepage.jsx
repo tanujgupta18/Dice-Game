@@ -1,4 +1,5 @@
 import React from "react";
+import dice from "../assets/images/dices.png";
 
 const Homepage = ({ toggle }) => {
   return (
@@ -7,7 +8,7 @@ const Homepage = ({ toggle }) => {
       style={{ height: "calc(100vh - 5rem)" }}
     >
       <div>
-        <img className="w-96%" src="./src/assets/images/dices.png" alt="" />
+        <img className="w-96%" src={dice} alt="Dice Image" />
       </div>
 
       <div>
